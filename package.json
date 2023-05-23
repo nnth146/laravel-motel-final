@@ -14,6 +14,8 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "alpinejs": "^3.12.1"
+        "@alpinejs/mask": "^3.12.1",
+        "alpinejs": "^3.12.1",
+        "tailwind-scrollbar-hide": "^1.1.7"
     }
 }

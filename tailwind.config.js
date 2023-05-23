@@ -4,10 +4,20 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'yellow' : '#FEFF86',
+        'light-blue' : '#B0DAFF',
+        'navy-blue' : '#19A7CE',
+        'dark-blue' : '#146C94',
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide'),
+  ],
 }
 
